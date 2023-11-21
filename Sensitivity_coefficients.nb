@@ -1,0 +1,336 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10831,        328]
+NotebookOptionsPosition[     10083,        308]
+NotebookOutlinePosition[     10455,        324]
+CellTagsIndexPosition[     10412,        321]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Sensitivity coefficients in the Z2-symmetric Einstein-scalar-Gauss-Bonnet \
+theory\
+\>", "Item",
+ CellChangeTimes->{{3.909561102227354*^9, 
+  3.909561131303082*^9}},ExpressionUUID->"60d34c59-97d5-4fd3-8037-\
+2267e0afa5cd"],
+
+Cell["First sensitivity", "Item",
+ CellChangeTimes->{{3.909562126203644*^9, 
+  3.909562129691717*^9}},ExpressionUUID->"8c43b1af-7d83-44d0-8cfc-\
+f80a0af40a94"]
+}, Open  ]],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","1",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["1", "2"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","2",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["73", "480"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","3",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["12511", "241920"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","4",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["227192473", "12773376000"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","5",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["12207964319", "1992646656000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","6",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["1182444744943999", "560207699251200000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","7",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["47557422073067386027", "65396405979788083200000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","8",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["33673951270828567910071349", 
+     "134398669175446327787520000000"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","9",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["184191744116332226502250346557", 
+     "2133713271829385899954667520000000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","10",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["48519296721732727237300202245396785169", 
+     "1631343284256787966125740780421120000000000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","11",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["1913414756387717383189786680038392301057", 
+     "186726062074930807199623252405125120000000000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","12",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["634381566480074306640515177086823578111081122340783", 
+     "179684795854632471315803832326703287529111552000000000000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","13",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["12130496646148897684418595304363509078066214102707877", 
+     "9972506169932102158027112694132032457865691136000000000000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","14",RowBox[{"(", "1", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"-", 
+    FractionBox["73089088888046703547607558979286847144825897230896491794817",
+      "174398696945622698189933443921740657123095742429265920000000000000"]}]}\
+], ";"}]}], "Input",
+ CellChangeTimes->{{3.909561323231839*^9, 3.909561323238752*^9}, {
+  3.9095614953687887`*^9, 3.909561516823141*^9}, {3.909561709470504*^9, 
+  3.909561771416957*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"bb097488-91f0-4488-b267-576d00fc3c06"],
+
+Cell["Second sensitivity", "Item",
+ CellChangeTimes->{{3.909562132761935*^9, 
+  3.909562137103581*^9}},ExpressionUUID->"decbb779-eb8b-479f-8fdd-\
+c569f1a569ae"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","1",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{"3", " ", "\[Lambda]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","2",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox["3", "2"]}], "+", 
+    FractionBox[
+     RowBox[{"73", " ", "\[Lambda]"}], "20"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","3",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox["73", "40"]}], "+", 
+    FractionBox[
+     RowBox[{"12511", " ", "\[Lambda]"}], "4032"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","4",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox["540721", "316800"]}], "+", 
+    FractionBox[
+     RowBox[{"143581499", " ", "\[Lambda]"}], "66528000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","5",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox["18133592447", "13837824000"]}], "+", 
+    FractionBox[
+     RowBox[{"16863480811", " ", "\[Lambda]"}], "12773376000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","6",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox["206444836630111", "237124952064000"]}], "+", 
+    FractionBox[
+     RowBox[{"110334369211284601", " ", "\[Lambda]"}], 
+     "149388719800320000"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","7",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox["923112788215249169", "1773991047628800000"]}], "+", 
+    FractionBox[
+     RowBox[{"87111106558531087", " ", "\[Lambda]"}], 
+     "225138416025600000"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","8",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox["7265132120221247441973569", "25277527478020866048000000"]}],
+     "+", 
+    FractionBox[
+     RowBox[{"46162137175210803903145277", " ", "\[Lambda]"}], 
+     "239471312949671362560000000"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","9",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox["1370841053240309873816550912653", 
+      "9172709171224211871498240000000"]}], "+", 
+    FractionBox[
+     RowBox[{"213364682846766748345402182998657", " ", "\[Lambda]"}], 
+     "2311522711148501391617556480000000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","10",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox["83962788227889216433166931924187819771", 
+      "1132877280733880532031764430848000000000"]}], "+", 
+    FractionBox[
+     RowBox[{"101549608372501642942090756399942847", " ", "\[Lambda]"}], 
+     "2372352256178725112449597440000000000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","11",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox["149127457082759339303858107739320140937619", 
+      "4214303484330035579158163682754560000000000"]}], "+", 
+    FractionBox[
+     RowBox[{"391079601670859370825351847346706748074607", " ", "\[Lambda]"}],
+      "20228656724784170779959185677221888000000000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","12",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox["3475829261284719397005227411690841853870150647431", 
+      "212212769102693300401317829184031660441600000000000"]}], "+", 
+    FractionBox[
+     RowBox[{
+     "60094641605198435678335483713683959403675338388003", " ", "\[Lambda]"}],
+      "7036528659720883118570012230838944530432000000000000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","13",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox["4093355544451839573840577364843192316148606900419408733", 
+      "554028120551783453223728483007335136548093952000000000000"]}], "+", 
+    FractionBox[
+     RowBox[{
+     "794018112527693165552615920996018447136539429581796987", " ", 
+      "\[Lambda]"}], 
+     "214462498278109723828540057938323278663778304000000000000"]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   TemplateBox[{"b","14",RowBox[{"(", "3", ")"}]},
+    "Subsuperscript"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     FractionBox[
+      "38897549565176674851828374676245324470106201728274291809957", 
+      "11927520308781013659875498584715007063343037939712000000000000"]}], 
+    "+", 
+    FractionBox[
+     RowBox[{
+     "981471949321937359627611088791611373121574597245852609378399", " ", 
+      "\[Lambda]"}], 
+     "621486584510168606488249663098308262774189871595520000000000000"]}]}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.9095621998503447`*^9, 3.909562202124083*^9}, {
+  3.909563620996583*^9, 3.909563696863934*^9}},
+ CellLabel->
+  "In[123]:=",ExpressionUUID->"f9d87d17-ae51-4c72-b57e-4f8ba9d837a4"]
+},
+WindowSize->{1920, 1033},
+WindowMargins->{{Automatic, -200}, {823, Automatic}},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 232, 6, 49, "Item",ExpressionUUID->"60d34c59-97d5-4fd3-8037-2267e0afa5cd"],
+Cell[815, 30, 159, 3, 49, "Item",ExpressionUUID->"8c43b1af-7d83-44d0-8cfc-f80a0af40a94"]
+}, Open  ]],
+Cell[989, 36, 3566, 104, 822, InheritFromParent,ExpressionUUID->"bb097488-91f0-4488-b267-576d00fc3c06"],
+Cell[4558, 142, 160, 3, 49, "Item",ExpressionUUID->"decbb779-eb8b-479f-8fdd-c569f1a569ae"],
+Cell[4721, 147, 5358, 159, 799, InheritFromParent,ExpressionUUID->"f9d87d17-ae51-4c72-b57e-4f8ba9d837a4"]
+}
+]
+*)
+
